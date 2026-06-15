@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/image6" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:text="A paragraph is a self-contained unit of discourse in writing that deals with a particular idea or topic. It typically consists of a group of sentences—though it can be just one—that group together to develop a central thought, adding structure and readability to a text.Core StructureA well-developed paragraph in English generally follows a specific flow:Topic Sentence: The first sentence that introduces the main idea or controlling point of the paragraph.Supporting Sentences: Sentences that provide evidence, examples, reasons, or details to elaborate on the topic sentence.Concluding Sentence: A final sentence that summarizes the point, transitions to the next paragraph, or wraps up the idea.
+
+                       Monkeys are highly intelligent, adaptable primates belonging to the infraorder Simiiformes. They are broadly divided into two major groups: New World monkeys, native to the Americas, and Old World monkeys, native to Africa and Asia. Most species are arboreal, spending their lives in tree canopies, though some, like baboons, are primarily terrestrial.A defining physical trait of many New World monkeys is a prehensile tail, which acts as a fifth limb for gripping branches. Old World monkeys lack this feature but often possess cheek pouches for storing food. Renowned for their complex social structures, monkeys live in tight-knit groups called troops. These communities rely on intricate communication, including vocalizations, facial expressions, and social grooming to strengthen bonds.As omnivores or herbivores, their diet consists of fruits, leaves, seeds, insects, and occasionally small animals. Through their feeding habits, monkeys act as vital seed dispersers, maintaining forest health and biodiversity. Their high cognitive abilities allow them to solve problems and use simple tools. Today, many monkey populations face severe threats from habitat destruction, climate change, and the illegal wildlife trade, highlighting the urgent need for global conservation efforts."
+            android:textSize="19dp" />
+
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/image6" />
+
+</LinearLayout>
