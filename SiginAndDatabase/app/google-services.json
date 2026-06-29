@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "921256375557",
+    "project_id": "siginanddatabase",
+    "storage_bucket": "siginanddatabase.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921256375557:android:7f203a430281b971d0b36c",
+        "android_client_info": {
+          "package_name": "com.example.siginanddatabase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBps_EVTKiGtZTtqqg5XFC3lwV_W6IUwPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
