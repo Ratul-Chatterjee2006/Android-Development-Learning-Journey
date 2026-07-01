@@ -76,12 +76,18 @@ A Firebase-integrated authentication project featuring:
 - Binding class generation from XML layouts
 - Accessing views through binding object instead of findViewById()
 - Benefits: Type safety, null safety, and cleaner code
-## **Why Use ViewBinding?**
+ **Why Use ViewBinding?**
  
 - Type-safe: Compiler catches errors at build time, not runtime
 - Null-safe: No null pointer exceptions from missing views
 - Cleaner code: No need for casting or null checks
 - Performance: More efficient than findViewById()
+
+### **AlertDialogue**
+Practice project exploring Android's AlertDialog — displaying popup dialogs to show messages, confirmations, single choice input, multiple choice inputs or get user input. Demonstrates creating simple dialogs with buttons, handling user interactions, and dismissing dialogs.
+
+**Key Concepts:** AlertDialog.Builder, positive/negative buttons, dialog listeners, and user response handling.
+
 ---
  
 ## 🛠️ Technologies & Tools
