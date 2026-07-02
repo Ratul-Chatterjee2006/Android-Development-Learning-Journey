@@ -88,6 +88,12 @@ Practice project exploring Android's AlertDialog — displaying popup dialogs to
 
 **Key Concepts:** AlertDialog.Builder, positive/negative buttons, dialog listeners, and user response handling.
 
+### **CustomisedAlertBox Project**
+
+A practice project creating customized AlertDialogs with custom layouts, styling, and themes. Explores how to go beyond basic dialogs by adding custom views, colors, fonts, and designs to match app branding.
+
+**Key Concepts:** Custom AlertDialog layouts, XML styling, view inflation, and advanced dialog customization.
+
 ---
  
 ## 🛠️ Technologies & Tools
