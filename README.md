@@ -94,6 +94,35 @@ A practice project creating customized AlertDialogs with custom layouts, styling
 
 **Key Concepts:** Custom AlertDialog layouts, XML styling, view inflation, and advanced dialog customization.
 
+### **DemoExam — Android MCQ/MSQ Quiz App**
+ 
+A simple Android quiz application that presents MCQ (Multiple Choice) and MSQ (Multiple Select) questions through native AlertDialogs, with a clean results summary at the end.
+ 
+ **Features**
+ 
+- Supports both MCQ (single answer, radio buttons) and MSQ (multiple answers, checkboxes)
+- Questions presented one at a time via AlertDialog
+- Clear button to reset selections without closing the dialog
+- Exit button with confirmation to prevent accidental loss of progress
+- Results shown after all questions are completed
+**How it works**❓
+ 
+1. Question appears in screen without any options 
+2. Tap **Answer** on the main screen to begin the quiz
+3. Each question appears as an AlertDialog with the appropriate input type
+4. Use **Clear** to reset your selection on the current question
+5. Tap **Previous** to go to previous question
+6. Tap **Next** to move forward, or **Submit** on the last question
+7. A summary screen shows your score and feedback for each question
+8. Tap **Exit** at any point to quit — a confirmation dialog will appear first
+
+ **Tech Stack**
+ 
+- Language: Kotlin
+- UI: Native Android AlertDialog
+- Min SDK: 21 (Android 5.0)
+- No third-party libraries
+
 ---
  
 ## 🛠️ Technologies & Tools
