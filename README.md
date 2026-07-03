@@ -105,6 +105,8 @@ A simple Android quiz application that presents MCQ (Multiple Choice) and MSQ (M
 - Clear button to reset selections without closing the dialog
 - Exit button with confirmation to prevent accidental loss of progress
 - Results shown after all questions are completed
+
+
 **How it works**❓
  
 1. Question appears in screen without any options 
