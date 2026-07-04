@@ -125,6 +125,24 @@ A simple Android quiz application that presents MCQ (Multiple Choice) and MSQ (M
 - Min SDK: 21 (Android 5.0)
 - No third-party libraries
 
+
+### **PhotoFrame — Android Image Viewer App**
+ 
+A simple Android photo frame application that lets you browse through a curated collection of 10 photos with next and previous navigation, along with a dynamic name label that updates with each photo.
+ 
+**Features**
+ 
+- Browse through a collection of 10 photos
+- Navigate forward and backward using **Next** and **Previous** image buttons
+- Photo name updates dynamically below the image as you navigate
+
+**How it works**❓
+ 
+1. Open the app — the first photo and its name are displayed
+2. Tap **Next** to move to the following photo
+3. Tap **Previous** to go back to the earlier photo
+4. The name label below the photo updates automatically with each navigation
+
 ---
  
 ## 🛠️ Technologies & Tools
