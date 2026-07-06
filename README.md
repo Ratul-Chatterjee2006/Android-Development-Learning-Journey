@@ -160,10 +160,13 @@ A simple Android practice project built to understand how ListView and Adapters 
  
 - Displays a static list of to-do tasks using a ListView
 - Tasks are predefined — no user input
-- Data persists across app restarts since it lives in the code itself
+- Data persists across app restarts since it lives in the code 
+
 **How it works**❓
  
-The tasks are defined as a static list in the code. An Adapter picks up that list and maps each task to a list item view. The ListView then renders those views on screen, one row per task.
+- The tasks are defined as a static list in the code. An Adapter picks up that list and maps each task to a list item view. The ListView then renders those views on screen, one row per task.
+
+
 ---
  
 ## 🛠️ Technologies & Tools
