@@ -143,6 +143,27 @@ A simple Android photo frame application that lets you browse through a curated 
 3. Tap **Previous** to go back to the earlier photo
 4. The name label below the photo updates automatically with each navigation
 
+
+### **ToDoList — ListviewAdapters**
+ 
+A simple Android practice project built to understand how ListView and Adapters work. Displays a static to-do list where tasks are predefined in the code.
+ 
+> **Note:** This is a learning project, not a production app. The goal was to get hands-on with ListView, custom Adapters, and how they work together in Android.
+ 
+ **What I learned**
+ 
+- How a ListView works and how it renders a list of items
+- How an Adapter acts as a bridge between data and the ListView
+- How to define static data and pass it through an Adapter to the UI
+- How data persists across app restarts when hardcoded in the source
+ **Features**
+ 
+- Displays a static list of to-do tasks using a ListView
+- Tasks are predefined — no user input
+- Data persists across app restarts since it lives in the code itself
+**How it works**❓
+ 
+The tasks are defined as a static list in the code. An Adapter picks up that list and maps each task to a list item view. The ListView then renders those views on screen, one row per task.
 ---
  
 ## 🛠️ Technologies & Tools
