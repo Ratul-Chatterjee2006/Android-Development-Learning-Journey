@@ -10,24 +10,32 @@ A collection of Android projects built while learning Kotlin and Android develop
 ### **FirstDemoProject**
 An early practice project combining basic Android concepts learned in the initial stages.
 
+---
 ### **InteractiveApp**
 A small interactive application experimenting with user interaction and event handling.
+
+---
  
 ### **TextandScrollView**
 Working with TextView and ScrollView — handling text display and scrollable content for longer text that exceeds screen height.
 
+---
 ### **ExplicitIntent**
 First exploration of explicit intents — navigating between activities and passing data directly between screens.
- 
+
+--- 
 ### **ImplicitIntent**
 Learning implicit intents — letting the Android system decide which app handles an action (like opening URLs, sharing content, etc.).
  
+ ---
 ### **WebView**
 Building a WebView component to display web content directly inside an Android app.
  
+ ---
 ### **SplashScreen**
 A welcome/intro screen with navigation capabilities — similar to the SigninAnddatabase but without database integration. Features custom background and branding, serving as an entry point before the main app.
- 
+
+ ---
 ### **StackUp** ⭐
 My first fully functional, polished Android app. A CS topic explorer with:
 - Multi-screen navigation using explicit intents
@@ -47,9 +55,11 @@ My first fully functional, polished Android app. A CS topic explorer with:
 - Intent data passing with arrays
 - Uri.parse() for opening external apps
  
+ ---
 ### **MultiScreenApp**
 Exploring multi-screen navigation and data passing — takes 4 orders as input and displays them on the next screen, demonstrating how to pass data between activities using intent extras.
  
+ ---
 ### **SigninAnddatabase** 🔐
 A Firebase-integrated authentication project featuring:
 - Sign-in menu with user input fields
@@ -63,6 +73,7 @@ A Firebase-integrated authentication project featuring:
 - Data storage and retrieval
 - Intent navigation post-authentication
 
+---
 ### **ViewBinding Project**
 - A practice project exploring Android's ViewBinding feature as an alternative to findViewById().
  
@@ -83,17 +94,20 @@ A Firebase-integrated authentication project featuring:
 - Cleaner code: No need for casting or null checks
 - Performance: More efficient than findViewById()
 
+---
 ### **AlertDialogue**
 Practice project exploring Android's AlertDialog — displaying popup dialogs to show messages, confirmations, single choice input, multiple choice inputs or get user input. Demonstrates creating simple dialogs with buttons, handling user interactions, and dismissing dialogs.
 
 **Key Concepts:** AlertDialog.Builder, positive/negative buttons, dialog listeners, and user response handling.
 
+---
 ### **CustomisedAlertBox Project**
 
 A practice project creating customized AlertDialogs with custom layouts, styling, and themes. Explores how to go beyond basic dialogs by adding custom views, colors, fonts, and designs to match app branding.
 
 **Key Concepts:** Custom AlertDialog layouts, XML styling, view inflation, and advanced dialog customization.
 
+---
 ### **DemoExam — Android MCQ/MSQ Quiz App**
  
 A simple Android quiz application that presents MCQ (Multiple Choice) and MSQ (Multiple Select) questions through native AlertDialogs, with a clean results summary at the end.
@@ -125,7 +139,7 @@ A simple Android quiz application that presents MCQ (Multiple Choice) and MSQ (M
 - Min SDK: 21 (Android 5.0)
 - No third-party libraries
 
-
+---
 ### **PhotoFrame — Android Image Viewer App**
  
 A simple Android photo frame application that lets you browse through a curated collection of 10 photos with next and previous navigation, along with a dynamic name label that updates with each photo.
@@ -143,7 +157,7 @@ A simple Android photo frame application that lets you browse through a curated 
 3. Tap **Previous** to go back to the earlier photo
 4. The name label below the photo updates automatically with each navigation
 
-
+---
 ### **ToDoList — ListviewAdapters**
  
 A simple Android practice project built to understand how ListView and Adapters work. Displays a static to-do list where tasks are predefined in the code.
@@ -165,6 +179,41 @@ A simple Android practice project built to understand how ListView and Adapters 
 **How it works**❓
  
 - The tasks are defined as a static list in the code. An Adapter picks up that list and maps each task to a list item view. The ListView then renders those views on screen, one row per task.
+
+---
+### **ContactsApp — Android ListView & Explicit Intent Practice Project**
+ 
+A simple Android practice project built to understand how ListView works with complex list items and how Explicit Intents are used to navigate between screens. Displays a WhatsApp-style contacts list and opens a detailed profile screen on tap.
+ 
+> **Note:** This is a learning project, not a production app. The goal was to get hands-on with custom ListViews, multi-field list items, and screen-to-screen navigation using Explicit Intents.
+ 
+**What I learned**
+ 
+- How to build a ListView with complex list items (multiple views per row)
+- How an Adapter maps multiple data fields (image, name, message, time) to a single list row
+- How Explicit Intents work to navigate from one Activity to another
+- How to pass data between Activities using Intent extras
+
+**Features**
+ 
+- WhatsApp-style contacts list showing profile picture, name, last message, and time for each contact
+- Tap any contact to open their detailed profile screen
+- Profile screen shows a larger display picture, name, last active time, and phone number
+- All contact data is hardcoded as static data
+
+**How it works**❓
+ 
+The contacts are defined as a static list in the code. A custom Adapter binds each contact's data — profile picture, name, last message, and time — to a row in the ListView. When a contact is tapped, an Explicit Intent is fired that opens the Profile Activity, carrying the tapped contact's details along with it. The Profile Activity receives that data and displays it.
+ 
+ 
+**Main Screen — Contacts List**
+- ListView with one row per contact
+- Each row shows: profile picture, name, last message, and time
+**Profile Screen — Contact Detail**
+- Larger display picture
+- Contact name
+- Last active time
+- Phone number
 
 
 ---
