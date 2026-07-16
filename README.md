@@ -132,12 +132,6 @@ A simple Android quiz application that presents MCQ (Multiple Choice) and MSQ (M
 7. A summary screen shows your score and feedback for each question
 8. Tap **Exit** at any point to quit — a confirmation dialog will appear first
 
- **Tech Stack**
- 
-- Language: Kotlin
-- UI: Native Android AlertDialog
-- Min SDK: 21 (Android 5.0)
-- No third-party libraries
 
 ---
 ### **PhotoFrame — Android Image Viewer App**
@@ -181,7 +175,7 @@ A simple Android practice project built to understand how ListView and Adapters 
 - The tasks are defined as a static list in the code. An Adapter picks up that list and maps each task to a list item view. The ListView then renders those views on screen, one row per task.
 
 ---
-### **ContactsApp — Android ListView & Explicit Intent Practice Project**
+### **Chatting App — Android ListView & Explicit Intent Practice Project**
  
 A simple Android practice project built to understand how ListView works with complex list items and how Explicit Intents are used to navigate between screens. Displays a WhatsApp-style contacts list and opens a detailed profile screen on tap.
  
@@ -214,6 +208,41 @@ The contacts are defined as a static list in the code. A custom Adapter binds ea
 - Contact name
 - Last active time
 - Phone number
+
+---
+
+### **NewsApp — Android RecyclerView & Explicit Intent Practice Project**
+ 
+A simple Android practice project built to understand how RecyclerView works and how Explicit Intents are used for screen navigation. Displays a clean news feed with 10 hardcoded articles and opens a full article view on tap — functional enough to use as a real app.
+ 
+> **Note:** This is a learning project built with 10 hardcoded news articles. The goal was to get hands-on with RecyclerView, ViewHolder pattern, and passing data between screens using Explicit Intents.
+ 
+ **What I learned**
+ 
+- How RecyclerView works and how it differs from ListView
+- How the ViewHolder pattern improves performance by recycling views
+- How a custom Adapter binds data to RecyclerView items
+- How Explicit Intents carry data from one Activity to another
+
+ **Features**
+ 
+- News feed showing 10 articles, each with a headline and image
+- Tap any article to open the full article screen
+- Full article screen shows the headline, image, and complete news content
+- Clean and usable despite being a practice project
+
+ **How it works**❓
+ 
+The 10 news articles are defined as static data in the code. A custom RecyclerView Adapter binds each article's headline and image to a card in the feed. When a card is tapped, an Explicit Intent opens the Article Activity and passes the selected article's headline, image, and content to it for display.
+
+ 
+**Main Screen — News Feed**
+- RecyclerView with one card per article
+- Each card shows: headline and image
+**Article Screen — Full Article**
+- Full headline
+- Image
+- Complete news content
 
 
 ---
