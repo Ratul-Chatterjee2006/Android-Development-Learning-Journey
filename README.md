@@ -246,6 +246,35 @@ The 10 news articles are defined as static data in the code. A custom RecyclerVi
 
 
 ---
+
+### **ProductsApp — Android API & RecyclerView Practice Project**
+ 
+A simple Android practice project built to understand how REST APIs work and how to fetch, parse, and display live data in an Android app. Pulls real product data from the DummyJSON API and displays each product's name, photo, and star rating in a RecyclerView.
+ 
+> **Note:** This is a learning project, not a production app. The goal was to get hands-on with making API calls, parsing JSON responses, and displaying live data using RecyclerView.
+ 
+ **What** I learned**
+ 
+- How REST APIs work and how to make HTTP requests from an Android app
+- How to fetch and parse a JSON response into usable data
+- How to display live API data in a RecyclerView
+- How to load remote images into an ImageView from a URL
+- How to represent a numeric rating visually using a star rating view
+- How to apply conditional color logic to UI elements based on data values
+
+ **Features**
+ 
+- Fetches live product data from the DummyJSON Products API
+- Displays each product's name, photo, and star rating in a RecyclerView
+- Star rating rendered visually for each product
+- Stars turn red for products rated 2.7 or below, indicating a poor rating
+- No hardcoded data — everything comes from the API
+
+ **How it works**❓
+ 
+On launch, the app makes an API call to the DummyJSON products endpoint. The JSON response is parsed and mapped into a list of product objects. A RecyclerView Adapter then binds each product's name, image URL, and rating to a card. The image is loaded from the remote URL directly into the ImageView, and the rating is displayed as stars. If the rating is 2.7 or below, the stars are coloured red to visually flag a poorly rated product.
+ 
+ ---
  
 ## 🛠️ Technologies & Tools
  
