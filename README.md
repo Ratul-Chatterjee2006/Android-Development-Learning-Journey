@@ -275,6 +275,33 @@ A simple Android practice project built to understand how REST APIs work and how
 On launch, the app makes an API call to the DummyJSON products endpoint. The JSON response is parsed and mapped into a list of product objects. A RecyclerView Adapter then binds each product's name, image URL, and rating to a card. The image is loaded from the remote URL directly into the ImageView, and the rating is displayed as stars. If the rating is 2.7 or below, the stars are coloured red to visually flag a poorly rated product.
  
  ---
+
+ ### **NotificationOverview**
+ 
+A simple Android practice project built to understand how notifications work in Android. Sends a styled friend request notification on button tap, complete with a small icon and a large profile picture, and tapping the notification brings you back to the app.
+ 
+> **Note:** This is a learning project, not a production app. The goal was to get hands-on with building and triggering notifications, customizing their appearance, and handling notification tap actions using PendingIntent.
+ 
+ **What I learned**
+ 
+- How to build and send a notification using NotificationCompat.Builder
+- How to set a small icon and a large icon on a notification
+- How notification channels work (required for Android 8.0 and above)
+- How to use PendingIntent to define what happens when the notification is tapped
+- How to direct the user back to the app from a notification tap
+
+ **Features**
+ 
+- Tap the **Notify** button to trigger a friend request notification
+- Notification displays a small icon and a large profile picture of a girl sending the friend request
+- Tapping the notification opens the app back to the same screen
+- Simulates a real-world social app notification pattern
+
+ **How it works**❓
+ 
+When the user taps the Notify button, the app builds a notification with a title, message, small icon, and large profile image. A PendingIntent is attached to the notification that points back to MainActivity. When the user taps the notification in the system tray, Android fires that PendingIntent and the app opens back up to the same screen.
+ 
+ ---
  
 ## 🛠️ Technologies & Tools
  
