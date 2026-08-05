@@ -302,7 +302,45 @@ A simple Android practice project built to understand how notifications work in 
 When the user taps the Notify button, the app builds a notification with a title, message, small icon, and large profile image. A PendingIntent is attached to the notification that points back to MainActivity. When the user taps the notification in the system tray, Android fires that PendingIntent and the app opens back up to the same screen.
  
  ---
+
+
+
+### **BottomNavApp — Android Bottom Navigation & Fragments Practice Project**
  
+A simple Android practice project built to understand how Bottom Navigation works with Fragments. Tapping each navigation item swaps the visible fragment, with each fragment showing a distinct background color to clearly demonstrate that the screen is actually changing.
+ 
+> **Note:** This is a learning project, not a production app. The goal was to get hands-on with Bottom Navigation, Fragment transactions, and how Fragments and Activities work together.
+ 
+**What I learned**
+ 
+- How to set up a Bottom Navigation bar in Android
+- How Fragments work and how they differ from Activities
+- How to perform Fragment transactions to swap screens
+- How each navigation item maps to its own Fragment
+- How to manage the back stack with Fragments
+
+**Features**
+ 
+- Bottom Navigation bar with four destinations — Home, Search, Profile, and Notification
+- Each tab loads a different Fragment with a unique background color
+- Home is the default screen shown on launch
+- Tapping any nav item instantly swaps the current Fragment
+
+**Screens**
+ 
+| Tab | Color |
+|---|---|
+| Home | Red |
+| Search | Blue |
+| Notification | Yellow |
+| Profile | Green |
+
+ 
+**How it works**❓
+ 
+MainActivity hosts the Bottom Navigation bar and a Fragment container. When the app launches, the Home Fragment is loaded by default. Each time the user taps a nav item, a Fragment transaction replaces the current Fragment in the container with the one corresponding to the tapped destination.
+ 
+ ---
 ## 🛠️ Technologies & Tools
  
 - **Language:** Kotlin
